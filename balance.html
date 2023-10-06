@@ -14,373 +14,119 @@
       rel="stylesheet"
     />
 
-    <!-- ! Tailwind Package Added here -->
+    <!-- ! Tailwind Package Added Here -->
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body class="bg-gray-900 font-work">
     <div class="max-w-lg mx-auto my-5">
-      <!-- ! Top Header Input Starts Here -->
-      <section class="bg-white px-5 py-8">
-        <div class="relative flex justify-center">
-          <input
-            type="text"
-            placeholder="Search transactions"
-            class="outline-none py-2 px-12 rounded-full w-full bg-white drop-shadow-xl placeholder:text-gray-500/50"
-          />
+      <!-- ! Bank details Starts Here -->
+      <section class="px-5 py-5 bg-white">
+        <div class="flex justify-between items-center">
+          <div class="flex flex-col">
+            <div class="flex gap-x-3">
+              <span class="font-medium">Bank Name</span>
+              <span class="font-light">Axis Bank (UTI)</span>
+            </div>
+            <div class="flex gap-x-3">
+              <span class="font-medium">Account No</span>
+              <span class="font-light">xxxx-1234</span>
+            </div>
+          </div>
+          <div class="font-bold text-lg">
+            <span>UPI</span>
+          </div>
+        </div>
+      </section>
 
-          <div class="absolute top-1.5 left-2">
-            <a href="./index.html">
+      <!-- ! Account number Starts Here -->
+      <section class="bg-[#3A81f1] px-5 py-3">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-x-7">
+            <div class="text-white">
+              <span>Account No</span>
+            </div>
+            <div class="text-white">
+              <span>xxxx-xxxx-xxxx-1234</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ! Digits section Starts Here -->
+      <section class="px-5 py-5 bg-white">
+        <div class="flex flex-col justify-center items-center">
+          <div class="font-semibold text-2xl pt-3 pb-5">
+            <span>Enter 6-Digit UPI Pin</span>
+          </div>
+
+          <div class="flex gap-x-2 items-center py-10">
+            <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
+                width="50"
+                height="50"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="black"
-                  d="m10 18l-6-6l6-6l1.4 1.45L7.85 11H20v2H7.85l3.55 3.55L10 18Z"
-                />
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
               </svg>
-            </a>
-          </div>
-          <div class="absolute right-2 top-1.5">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="black"
-                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"
-              />
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <!-- ! Month year amount Starts Here -->
-      <section class="bg-[#3A81f1] px-5 py-3">
-        <div class="flex justify-between items-center">
-          <div class="flex gap-x-7">
-            <div class="text-white">
-              <span>October</span>
             </div>
-            <div class="text-white">
-              <span>2023</span>
-            </div>
-          </div>
-          <div class="text-white font-semibold leading-tight">
-            <span>LKR 10,000</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ! Transaction statement Start Here -->
-      <section class="bg-white px-5 py-3">
-        <!-- ** Statement contact ** -->
-        <div class="flex flex-col gap-y-2 py-5">
-          <div class="flex justify-between gap-x-5 items-center">
             <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
+              </svg>
             </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
             <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
+              </svg>
             </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
             <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
+              </svg>
             </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
             <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
+              </svg>
             </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
             <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ! Month year amount Starts Here -->
-      <section class="bg-[#3A81f1] px-5 py-3">
-        <div class="flex justify-between items-center">
-          <div class="flex gap-x-7">
-            <div class="text-white">
-              <span>September</span>
-            </div>
-            <div class="text-white">
-              <span>2023</span>
-            </div>
-          </div>
-          <div class="text-white font-semibold leading-tight">
-            <span>LKR 22,253.50</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ! Transaction statement Start Here -->
-      <section class="bg-white px-5 py-3">
-        <!-- ** Statement contact ** -->
-        <div class="flex flex-col gap-y-2 py-5">
-          <div class="flex justify-between gap-x-5 items-center">
-            <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path fill="#3A81F1" d="M19 12.998H5v-2h14z" />
+              </svg>
             </div>
           </div>
 
-          <div class="flex justify-between gap-x-5 items-center">
-            <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
-            <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
-            <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between gap-x-5 items-center">
-            <div>
-              <img
-                src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-                class="rounded-full w-[60px] h-[60px] object-cover"
-              />
-            </div>
-
-            <div class="flex flex-col gap-y-0 flex-1">
-              <div>
-                <span>Muthu Akalya</span>
-              </div>
-              <div class="text-xs">
-                <span>Sept 5, 2023 at 10.05 PM</span>
-              </div>
-            </div>
-
-            <div class="flex flex-row items-center gap-x-1">
-              <div>
-                <span class="text-green-600 font-semibold">+</span>
-              </div>
-
-              <div>
-                <span>LKR 5000.00</span>
-              </div>
-            </div>
+          <div class="px-20 pb-10">
+            <p class="font-light text-center">
+              UPI pin will keep your account secure from unauthorized access. Do
+              not share this PIN with anyone. 
+            </p>
           </div>
         </div>
       </section>

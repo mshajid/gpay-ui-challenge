@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./transaction.html",
+    "./balance.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {

@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./transaction.html",
     "./balance.html",
+    "./cibil-score.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
